@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar conta</title>
+    <style>
+        body {
+            background-image: url(avatar.jpg);
+            background-size: cover;
+        }
+
+        form {
+            border: 3px solid black;
+            border-radius: 30px;
+            background-color: #FFF39A;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+        }
+
+        .texto {
+            width: 35%;
+            padding: 0px 20px;
+            margin: 8px 3;
+            display: inline-block;
+            border: 2px solid #6F4E37;
+            border-radius: 4px;
+            box-sizing: border-box;
+            color: #6F4E37;
+            background-image: url(cafezin.png);
+            background-size: 48px;
+            background-repeat: no-repeat;
+            background-position: 23% 0%;
+        }
+
+        .button {
+            background-color: #6F4E37;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .registro {
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        a:link {
+            color: #6F4E37;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        a:visited {
+            color: #363636;
+        }
+
+        .caixa {
+            border-radius: 4px;
+            border: 1px solid #6F4E37;
+        }
+
+        input[type=text]:focus {
+            width: 50%;
+        }
+
+        input[type=password]:focus {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+  <div class="registro">
+    <form class="texto">
+        <h2>Crie uma conta</h2>
+        <p>Nome de usuário</p> <input type="text" placeholder="Insira seu nome">
+        <p>E-mail</p> <input type="text" placeholder="Insira seu e-mail">
+        <p>Senha</p> <input type="password" placeholder="Insira uma senha">
+        <p>Confirmar senha</p> <input type="password" placeholder="Confirme sua senha"><br><br>
+        <button>Criar conta</button>
+        <p>Já possui uma conta? <a href="arturTarefa.html" target="_blank">Entrar</a></p>
+    </form>
+  </div>
+</body>
+</html>

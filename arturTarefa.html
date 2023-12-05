@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa</title>
+    <style>
+        body {
+            background-image: url(5766.jpg_wh1200.jpg);
+            background-size: cover;
+        }
+
+        form {
+            border: 3px solid black;
+            border-radius: 30px;
+            background-color: #FFF39A;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+        } 
+
+        .texto {
+            width: 35%;
+            padding: 0px 20px;
+            margin: 8px 3;
+            display: inline-block;
+            border: 2px solid #6F4E37;
+            border-radius: 4px;
+            box-sizing: border-box;
+            color: #6F4E37;
+            background-image: url(cafezin.png);
+            background-size: 48px;
+            background-repeat: no-repeat;
+            background-position: 32% 0%;
+        }
+
+        .button {
+            background-color: #6F4E37;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        a:link {
+            color: #6F4E37;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        a:visited {
+            color: #363636;
+        }
+
+        .caixa {
+            border-radius: 4px;
+            border: 1px solid #6F4E37;
+        }
+
+        input[type=text]:focus {
+            width: 50%;
+        }
+
+        input[type=password]:focus {
+            width: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="input">
+        <form class="texto">
+            <h2>Login :D</h2>
+            <p> Usuário: <input type="text" placeholder="Insira seu nome de usuário" class="caixa"></p>
+            <p> Senha: <input type="password" placeholder="Insira sua senha" class="caixa"></p>
+            <input type="checkbox" id="Lembrar-de-mim">
+            <label for="Lembrar-de-mim">Lembrar de mim</label><br><br>
+            <button class="button">Entrar</button><br><br>
+            <a href="passwordRec.html" target="_blank">Esqueceu sua senha?</a><br><br>
+            <a href="registro.html" target="_blank">Registrar conta</a><br><br>
+        </form>
+    </div>
+</body>
+
+</html>
